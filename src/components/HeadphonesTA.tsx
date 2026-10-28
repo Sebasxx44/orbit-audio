@@ -1,3 +1,4 @@
+import { AsteriskTA } from "@/components/AsteriskTA";
 import { MoveUpRight, Rotate3D } from "lucide-react";
 import { useHeadphones } from "@/composables/useHeadphones";
 export const HeadphonesTA = ({ color }: { color: string }) => {
@@ -6,7 +7,7 @@ export const HeadphonesTA = ({ color }: { color: string }) => {
     <div className="headphones-stage">
       <div className="orbital orbital-one" />
       <div className="orbital orbital-two" />
-      <div className="stage-star star-one">✳</div>
+      <div className="stage-star star-one"><AsteriskTA /></div>
       <div className="stage-star star-two">+</div>
       <span className="stage-reference">O—01 / STUDIO SERIES</span>
       <canvas

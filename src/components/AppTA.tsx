@@ -1,3 +1,4 @@
+import { AsteriskTA } from "@/components/AsteriskTA";
 import { useState } from "react";
 import {
   ArrowDown,
@@ -127,11 +128,11 @@ export const AppTA = () => {
         </section>
         <div className="ticker" aria-hidden="true">
           <span>FEEL EVERY FREQUENCY</span>
-          <span>✳</span>
+          <span><AsteriskTA /></span>
           <span>FIND YOUR ORBIT</span>
-          <span>✳</span>
+          <span><AsteriskTA /></span>
           <span>FEEL EVERY FREQUENCY</span>
-          <span>✳</span>
+          <span><AsteriskTA /></span>
         </div>
         <section id="experiencia" className="experience section-wrap">
           <div className="section-top">
